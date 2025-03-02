@@ -1,3 +1,5 @@
+# chatbot.py
+
 import re
 import random
 
@@ -79,3 +81,22 @@ def run_chatbot_from_file(input_filename, output_filename):
 
 # Example usage:
 # run_chatbot_from_file("chat_input.txt", "chat_output.txt")
+
+# chat_input.txt
+# Hi
+# What is your name?
+# How are you?
+# What can you do?
+# Bye
+
+# README.md
+# # Rule-Based Chatbot
+# This is a simple rule-based chatbot that reads user inputs from a file and generates responses.
+
+# ## How to Run
+# 1. Place your inputs in `chat_input.txt`
+# 2. Run the script: `python chatbot.py`
+# 3. The responses will be saved in `chat_output.txt`
+
+# requirements.txt
+# No external dependencies required, built using Python standard libraries
